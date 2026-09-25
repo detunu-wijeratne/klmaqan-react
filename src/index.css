@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-alata: "Alata", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-manrope);
+  color: #171717;
+}
+
+.font-manrope { font-family: var(--font-manrope); }
+.font-alata { font-family: var(--font-alata); }
+
+/* Simple sticky-sidebar helper used on the project detail page */
+.sticky-aside {
+  position: sticky;
+  top: 1.5rem;
+}
