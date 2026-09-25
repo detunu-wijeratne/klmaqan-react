@@ -72,7 +72,7 @@ export default function ProjectsPage() {
       {/* Hero */}
       <section className="relative flex min-h-96 w-full flex-col justify-center overflow-hidden pt-32 pb-20 md:pt-50 md:pb-30">
         <img
-          src="/statics/project.png"
+          src="https://klmaqan.w3icon.com/wp-content/themes/klmaqan/theme/assets/img/statics/project.png"
           alt="Modern villa at dusk"
           className="absolute inset-0 h-full w-full object-cover"
         />
